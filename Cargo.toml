@@ -3,8 +3,12 @@ name = "rustCrudApi"
 version = "0.1.0"
 edition = "2021"
 
+
+
 [dependencies]
 postgres = "0.16.4"
+
+# dependencies for serialization and deserialization
 serde = "1.0"
 serde_json = "1.0"
 serde_derive = "1.0"
